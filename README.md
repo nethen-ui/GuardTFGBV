@@ -60,11 +60,24 @@ This project aims to empower users to safely navigate digital spaces, respond co
    
    ```bash
    git clone https://github.com/nethen-ui/GuardTFGBV
+
+2. Extracy the website folder
+
+   - For Windows
+     
+   ```bash
+   Expand-Archive 'GuardTFGBV - website.zip'
+   ```
+   - For Linux
+
+   ```bash
+   unzip 'GuardTFGBV - website.zip'
+   ```
    
 2. Open your IDE or terminal on the folder
    
    ```bash
-   cd GuardTFGBV
+   cd 'GuardTFGBV - website'
 
 3. Install Node.js (if not installed yet)
    
@@ -98,7 +111,7 @@ This project aims to empower users to safely navigate digital spaces, respond co
 
 -------------------------------------------------------------------------------
 
-*To install the extension, you can use the "Download Extension" button on the top right corner of the website, or you can download it directly with the link below:*
+*To install the extension, you can use the "Download Extension" button on the top right corner of the website, or you can get it from here too:*
 
 After downloading the browser extension, 
 
