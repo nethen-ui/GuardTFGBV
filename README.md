@@ -108,7 +108,7 @@ After downloading the browser extension,
 4. Use the Load Unpacked button on the top left corner
 5. Choose the file you downloaded
 
-======================================================================================================================
+==================================================================================================
 
 **Usage**
 
@@ -117,7 +117,7 @@ After downloading the browser extension,
 - Paste suspicious text into the extension for real-time detection.
 - Report incidents directly through the website form.
 
-======================================================================================================================
+===================================================================================================
 
 **Technologies Used**
 
@@ -126,6 +126,6 @@ After downloading the browser extension,
 - EmailJS - for email based reporting system (no server required)
 - Chrome extension API - for browser extension
 
-======================================================================================================================
+===================================================================================================
 
 **Thank You!**
