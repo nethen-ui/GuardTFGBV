@@ -1,4 +1,4 @@
-# GuardTFGBV
+# *GuardTFGBV*
 GuardTFGBV is a comprehensive platform for raising awareness, detecting, and reporting technology-facilitated gender-based violence.
 
 *Empowering users to recognize, respond, and report digital abuse against women and girls.*
@@ -18,7 +18,7 @@ GuardTFGBV is a comprehensive platform for raising awareness, detecting, and rep
 
 [6. Technologies Used](#techologies-used)
 
-==================================================================================================
+=====================================================================================
 
 **Project Overview**
 
@@ -30,7 +30,7 @@ It consists of:
 
 This project aims to empower users to safely navigate digital spaces, respond confidently to abuse, and report incidents responsibly.
 
-===================================================================================================
+======================================================================================
 
 **Features**
 
@@ -52,7 +52,7 @@ This project aims to empower users to safely navigate digital spaces, respond co
 
 - Seamless Integration: Downloadable via the website for easy access.
   
-====================================================================================================
+====================================================================================
 
 **Installation**
 
@@ -96,7 +96,7 @@ This project aims to empower users to safely navigate digital spaces, respond co
      ```bash
      http://localhost:3000
 
-----------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 *To install the extension, you can use the "Download Extension" button on the top right corner of the website, or you can download it directly with the link below:*
 
@@ -108,7 +108,7 @@ After downloading the browser extension,
 4. Use the Load Unpacked button on the top left corner
 5. Choose the file you downloaded
 
-==================================================================================================
+===================================================================================
 
 **Usage**
 
@@ -117,7 +117,7 @@ After downloading the browser extension,
 - Paste suspicious text into the extension for real-time detection.
 - Report incidents directly through the website form.
 
-===================================================================================================
+===================================================================================
 
 **Technologies Used**
 
@@ -126,6 +126,6 @@ After downloading the browser extension,
 - EmailJS - for email based reporting system (no server required)
 - Chrome extension API - for browser extension
 
-===================================================================================================
+===================================================================================
 
 **Thank You!**
