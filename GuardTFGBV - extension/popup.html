@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <canvas id="particleCanvas"></canvas>
+  
+  <div class="container">
+    <div class="header">
+      <h1 class="title">GuardTFGBV</h1>
+      <p class="subtitle">Protect Against Digital Violence</p>
+    </div>
+
+    <div id="setupView" class="content">
+      <div class="info-card">
+        <h2 class="section-title">Setup Required</h2>
+        <p class="info-text">Enter your Groq API key to use the extension features.</p>
+        <input 
+          type="password" 
+          id="apiKeyInput" 
+          class="input-field" 
+          placeholder="Enter Groq API Key"
+        />
+        <button id="saveApiKeyBtn" class="primary-button">Save API Key</button>
+        <a href="https://console.groq.com/keys" target="_blank" class="link-text">Get API Key from Groq →</a>
+      </div>
+    </div>
+
+    <div id="mainView" class="content hidden">
+      <div class="mode-selector">
+        <button id="chatModeBtn" class="mode-button active">
+          <svg class="mode-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+          </svg>
+          Chat Assistant
+        </button>
+        <button id="analyzeModeBtn" class="mode-button">
+          <svg class="mode-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"></path>
+            <rect x="9" y="3" width="6" height="4" rx="1"></rect>
+          </svg>
+          Text Analysis
+        </button>
+      </div>
+
+      <div id="chatMode" class="mode-content">
+        <div id="chatMessages" class="chat-messages"></div>
+        <div class="chat-input-container">
+          <textarea 
+            id="chatInput" 
+            class="chat-input" 
+            placeholder="Ask about TFGBV..."
+            rows="2"
+          ></textarea>
+          <button id="sendChatBtn" class="send-button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div id="analyzeMode" class="mode-content hidden">
+        <div class="info-card">
+          <h3 class="section-title">Analyze Text for TFGBV</h3>
+          <p class="info-text">Paste text to check if it contains Technology Facilitated Gender-Based Violence.</p>
+        </div>
+        <textarea 
+          id="analyzeInput" 
+          class="analyze-textarea" 
+          placeholder="Paste text here to analyze..."
+        ></textarea>
+        <button id="analyzeTextBtn" class="primary-button">Analyze Text</button>
+        
+        <div id="analysisResult" class="analysis-result hidden"></div>
+      </div>
+
+      <button id="settingsBtn" class="settings-button" title="Change API Key">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="3"></circle>
+          <path d="M12 1v6m0 6v6m5.66-15.66l-4.24 4.24m0 6.84l4.24 4.24M23 12h-6m-6 0H1m15.66 5.66l-4.24-4.24m0-6.84l4.24-4.24"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <script src="particles-bg.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
