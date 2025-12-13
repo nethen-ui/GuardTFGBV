@@ -121,6 +121,20 @@ After downloading the browser extension,
 4. Use the Load Unpacked button on the top left corner
 5. Choose the file you downloaded
 
+*To use the chatbot, the TFGBV detector, and the reporting form, you must obtain API keys from EmailJS and Groq*
+
+1. EmailJS:
+   
+   - Public Key (User ID)
+   - Service ID
+   - Template ID
+
+2. Groq
+
+   - Groq API Key
+
+**Use the API setup guide readme file to set you up with the API keys**
+
 ===================================================================================
 
 **Usage**
