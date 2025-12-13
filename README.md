@@ -7,13 +7,18 @@ GuardTFGBV is a comprehensive platform for raising awareness, detecting, and rep
 **Table of Contents**
 
 [1. Project Overview](#project-overview)
+
 [2. Features](#features)
+
 [3. Demo](#demo)
+
 [4. Installation](#installation)
+
 [5. Usage](#usage)
+
 [6. Technologies Used](#techologies-used)
 
-======================================================================================================================
+==================================================================================================
 
 **Project Overview**
 
@@ -25,7 +30,7 @@ It consists of:
 
 This project aims to empower users to safely navigate digital spaces, respond confidently to abuse, and report incidents responsibly.
 
-======================================================================================================================
+===================================================================================================
 
 **Features**
 
@@ -47,44 +52,53 @@ This project aims to empower users to safely navigate digital spaces, respond co
 
 - Seamless Integration: Downloadable via the website for easy access.
   
-======================================================================================================================
+====================================================================================================
 
 **Installation**
 
 1. Clone into the repository or download the zip file
+   
    ```bash
    git clone https://github.com/nethen-ui/GuardTFGBV
    
 2. Open your IDE or terminal on the folder
+   
    ```bash
    cd GuardTFGBV
 
 3. Install Node.js (if not installed yet)
+   
    - For Windows
+     
    ```powershell
    winget install OpenJS.NodeJS.LTS
    ```
    - For Linux
+     
    ```bash
    sudo apt update
    sudo apt install nodejs npm -y
    
-3. Install all the packages in the project
+4. Install all the packages in the project
+   
    ```bash
    npm install --legacy-peer-deps
 
-4. Run the program
+5. Run the program
+   
    ```bash
    npm run dev
 
-5. Open the website on your local host
+6. Open the website on your local host
+   
    - Your localhost might look like:
+     
      ```bash
      http://localhost:3000
 
 ----------------------------------------------------------------------------------------------------------------------
 
-*To install the extension, you can use the "Download Extension" button on the top right corner of the website, or you can download it directly with the link below: *
+*To install the extension, you can use the "Download Extension" button on the top right corner of the website, or you can download it directly with the link below:*
 
 After downloading the browser extension, 
 
