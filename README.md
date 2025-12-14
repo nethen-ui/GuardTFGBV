@@ -146,6 +146,9 @@ The live demo and browser extension download are accessible through the website 
 
 ---
 
+
+### Browser Extension Setup
+
 *To install the extension, you can use the "Download Extension" button on the top right corner of the website, or you can get it from here too:*
 
 After downloading the browser extension, 
@@ -155,6 +158,8 @@ After downloading the browser extension,
 3. Turn in the Developer Mode switch on the top right corner
 4. Use the Load Unpacked button on the top left corner
 5. Choose the file you downloaded
+
+### API Configuration
 
 *To use the chatbot, the TFGBV detector, and the reporting form, you must obtain API keys from EmailJS and Groq*
 
@@ -172,7 +177,7 @@ After downloading the browser extension,
 
 ---
 
-**Usage**
+### Usage
 
 - Ask the chatbot about TFGBV.
 - Practice responses in the simulation section.
@@ -181,7 +186,7 @@ After downloading the browser extension,
 
 ---
 
-**Technologies Used**
+### Technologies Used
 
 - Next.js - React framework
 - Groq Cloud API - for real time analysis and LLM
@@ -190,4 +195,4 @@ After downloading the browser extension,
 
 ---
 
-**Thank You!**
+### Thank You!
