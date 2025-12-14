@@ -1,7 +1,6 @@
 # GuardTFGBV
 
 ![Status](https://img.shields.io/badge/status-active-success)
-![License](https://img.shields.io/badge/license-MIT-blue)
 ![Platform](https://img.shields.io/badge/platform-web%20%7C%20chrome--extension-orange)
 ![Framework](https://img.shields.io/badge/framework-Next.js-black)
 ![AI](https://img.shields.io/badge/AI-Groq%20LLM-purple)
