@@ -144,7 +144,7 @@ The live demo and browser extension download are accessible through the website 
      ```bash
      http://localhost:3000
 
--------------------------------------------------------------------------------
+---
 
 *To install the extension, you can use the "Download Extension" button on the top right corner of the website, or you can get it from here too:*
 
@@ -170,7 +170,7 @@ After downloading the browser extension,
 
 **Use the API setup guide readme file to set you up with the API keys**
 
-===================================================================================
+---
 
 **Usage**
 
@@ -179,7 +179,7 @@ After downloading the browser extension,
 - Paste suspicious text into the extension for real-time detection.
 - Report incidents directly through the website form.
 
-===================================================================================
+---
 
 **Technologies Used**
 
@@ -188,6 +188,6 @@ After downloading the browser extension,
 - EmailJS - for email based reporting system (no server required)
 - Chrome extension API - for browser extension
 
-===================================================================================
+---
 
 **Thank You!**
