@@ -1,65 +1,101 @@
-# *GuardTFGBV*
-GuardTFGBV is a comprehensive platform for raising awareness, detecting, and reporting technology-facilitated gender-based violence.
+# GuardTFGBV
 
-*Empowering users to recognize, respond, and report digital abuse against women and girls.*
+![Status](https://img.shields.io/badge/status-active-success)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Platform](https://img.shields.io/badge/platform-web%20%7C%20chrome--extension-orange)
+![Framework](https://img.shields.io/badge/framework-Next.js-black)
+![AI](https://img.shields.io/badge/AI-Groq%20LLM-purple)
+![Reporting](https://img.shields.io/badge/reporting-EmailJS-red)
 
+GuardTFGBV is a comprehensive platform for raising awareness, detecting, and and reporting technology-facilitated gender-based violence.
 
-**Table of Contents**
+**Empowering users to recognize, respond to, and report digital abuse against women and girls.**
 
-[1. Project Overview](#project-overview)
+---
 
-[2. Features](#features)
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Features](#features)
+   - [Website](#website)
+   - [Browser Extension](#browser-extension)
+3. [Demo](#demo)
+4. [Installation](#installation)
+   - [Website Setup](#website-setup)
+   - [Browser Extension Setup](#browser-extension-setup)
+   - [API Configuration](#api-configuration)
+5. [Usage](#usage)
+6. [Technologies Used](#technologies-used)
+7. [Thank You](#thank-you)
 
-[3. Demo](#demo)
+---
 
-[4. Installation](#installation)
+## Project Overview
 
-[5. Usage](#usage)
-
-[6. Technologies Used](#techologies-used)
-
-=====================================================================================
-
-**Project Overview**
-
-GuardTFGBV is an integrated platform designed to educate, simulate, detect, and report text-based harassment, coercion, and abusive content against women and girls online.
+GuardTFGBV is an integrated platform designed to **educate**, **simulate**, **detect**, and **report** text-based harassment, coercion, and abusive content against women and girls online.
 
 It consists of:
-- Website: Focused on awareness and training.
-- Browser Extension: Focused on real-time detection and guidance.
 
-This project aims to empower users to safely navigate digital spaces, respond confidently to abuse, and report incidents responsibly.
+- **Website**: Focused on awareness, training, and responsible reporting  
+- **Browser Extension**: Focused on real-time detection and user guidance  
 
-======================================================================================
+The project aims to empower users to safely navigate digital spaces, respond confidently to abuse, and report incidents responsibly.
 
-**Features**
+---
 
-1. *Website*
+## Features
 
-- AI Awareness Chatbot: A large language model (LLM) that answers all questions related to TFGBV, providing guidance and information.
+### Website
 
-- Text Simulation: Interactive scenarios where users practice responding to harassment. The system evaluates responses and provides awareness feedback.
+<p align="center">
+  <img src="assets/website_1.png" width="750" alt="GuardTFGBV Website Interface">
+</p>
 
-- Reporting Section: Secure form to report incidents to authorities or partner organizations. Reporter identity is optional.
+- **AI Awareness Chatbot**  
+  A large language model that answers questions related to TFGBV, providing guidance and information.
 
-- Informative Home Page: Includes descriptions, definitions, types of TFGBV, and an educational video.
+- **Text Simulation**  
+  Interactive scenarios where users practice responding to harassment. The system evaluates responses and provides awareness feedback.
 
-2. *Browser Extension*
+- **Reporting Section**  
+  Secure form to report incidents to authorities or partner organizations. Reporter identity is optional.
 
-- AI-Powered LLM: Analyze suspicious text or ask questions for real-time guidance.
+- **Informative Home Page**  
+  Includes definitions, types of TFGBV, educational explanations, and an awareness video.
 
-- TFGBV Detector: Detects abuse in text, suggests safe responses, and provides a one-click link to reporting.
+---
 
-- Seamless Integration: Downloadable via the website for easy access.
-  
-====================================================================================
+### Browser Extension
 
-**Installation**
+<p align="center">
+  <img src="assets/extension_1.png" width="450" alt="GuardTFGBV Browser Extension">
+</p>
 
-1. Clone into the repository or download the zip file
-   
-   ```bash
-   git clone https://github.com/nethen-ui/GuardTFGBV
+- **AI-Powered LLM Assistance**  
+  Analyze suspicious text or ask questions for real-time guidance.
+
+- **TFGBV Detector**  
+  Detects abusive text, suggests safe responses, and provides a one-click link to reporting.
+
+- **Seamless Integration**  
+  Downloadable directly from the website for easy access.
+
+---
+
+## Demo
+
+The live demo and browser extension download are accessible through the website interface.
+
+---
+
+## Installation
+
+### Website Setup
+
+1. Clone the repository or download the ZIP file
+
+  ```bash
+  git clone https://github.com/nethen-ui/GuardTFGBV
+  ```
 
 2. Extracy the website folder
 
